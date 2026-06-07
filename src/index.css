@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom Stellar & Pride atmospheric animations */
+@keyframes floatFeather {
+  0% {
+    transform: translateY(115vh) rotate(var(--start-rot, 0deg)) scale(var(--feather-scale, 1)) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: var(--max-opacity, 0.85);
+  }
+  90% {
+    opacity: var(--max-opacity, 0.85);
+  }
+  100% {
+    transform: translateY(-15vh) rotate(var(--end-rot, 180deg)) scale(var(--feather-scale, 1)) translateX(var(--drift-x, 60px));
+    opacity: 0;
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.1; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes driftCloud {
+  0% { transform: translateX(-5%); }
+  50% { transform: translateX(5%); }
+  100% { transform: translateX(-5%); }
+}
+
+.animate-feather-float {
+  animation: floatFeather var(--float-duration, 18s) linear infinite;
+  animation-delay: var(--float-delay, 0s);
+}
+
+.animate-star-twinkle {
+  animation: twinkle var(--twinkle-duration, 3s) ease-in-out infinite;
+  animation-delay: var(--twinkle-delay, 0s);
+}
+
+.animate-cloud-drift {
+  animation: driftCloud var(--drift-duration, 25s) ease-in-out infinite;
+}
+
+@keyframes rainbowStream {
+  0% {
+    transform: translateX(0);
+    filter: saturate(1.08) brightness(1.02);
+  }
+  50% {
+    transform: translateX(-7%);
+    filter: saturate(1.22) brightness(1.2);
+  }
+  100% {
+    transform: translateX(-14%);
+    filter: saturate(1.08) brightness(1.02);
+  }
+}
+
+@keyframes cloudBob {
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.02);
+  }
+}
+
+@keyframes flamingoHappyFloat {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-4px) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-9px) rotate(1.8deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(-1deg);
+  }
+}
+
+.animate-rainbow-stream {
+  animation: rainbowStream 16s linear infinite;
+}
+
+.animate-cloud-bob {
+  animation: cloudBob 7.5s ease-in-out infinite;
+  animation-delay: var(--cloud-delay, 0s);
+}
+
+.animate-flamingo-happy-float {
+  animation: flamingoHappyFloat 4.8s ease-in-out infinite;
+}
+
+@keyframes logoFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1.5deg);
+  }
+}
+
+.animate-logo-float {
+  animation: logoFloat 4.5s ease-in-out infinite;
+}
+
+@keyframes flamingoDance {
+  0% { transform: translateY(0) rotate(0deg) scale(1); }
+  20% { transform: translateY(-6px) rotate(-7deg) scale(1.03); }
+  40% { transform: translateY(0) rotate(7deg) scale(1.04); }
+  60% { transform: translateY(-5px) rotate(-5deg) scale(1.02); }
+  80% { transform: translateY(0) rotate(5deg) scale(1.03); }
+  100% { transform: translateY(0) rotate(0deg) scale(1); }
+}
+
+@keyframes flamingoSad {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(3px) rotate(-4deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+
+@keyframes loseStickerPop {
+  0% { opacity: 0; transform: scale(0.8) translateY(8px); }
+  15% { opacity: 1; transform: scale(1.05) translateY(0); }
+  80% { opacity: 1; transform: scale(1) translateY(0); }
+  100% { opacity: 0; transform: scale(0.96) translateY(6px); }
+}
+
+.animate-flamingo-dance {
+  animation: flamingoDance 0.7s ease-in-out infinite;
+}
+
+.animate-flamingo-sad {
+  animation: flamingoSad 1.4s ease-in-out infinite;
+}
+
+.animate-lose-sticker {
+  animation: loseStickerPop 1.5s ease-out forwards;
+}
+
+/* High-contrast safety net for admin panels */
+#options-editor-panel,
+#config-panel,
+#history-panel {
+  color: #0f172a;
+}
+
+#options-editor-panel h1,
+#options-editor-panel h2,
+#options-editor-panel h3,
+#options-editor-panel h4,
+#options-editor-panel p,
+#options-editor-panel span,
+#options-editor-panel label,
+#options-editor-panel button,
+#config-panel h1,
+#config-panel h2,
+#config-panel h3,
+#config-panel h4,
+#config-panel p,
+#config-panel span,
+#config-panel label,
+#config-panel button,
+#history-panel h1,
+#history-panel h2,
+#history-panel h3,
+#history-panel h4,
+#history-panel p,
+#history-panel span,
+#history-panel label,
+#history-panel button {
+  color: #0f172a !important;
+}
+
+#options-editor-panel input,
+#options-editor-panel textarea,
+#config-panel input,
+#config-panel textarea,
+#history-panel input,
+#history-panel textarea {
+  color: #0f172a !important;
+}
+
+#options-editor-panel .text-white,
+#config-panel .text-white,
+#history-panel .text-white {
+  color: #ffffff !important;
+}
+
+/* Full right-side admin panel contrast lock */
+#controls-panel-column {
+  position: relative;
+  z-index: 30;
+}
+
+#navigation-tabs,
+#participants-panel,
+#options-list-container,
+#input-controls-card,
+#presets-container,
+#config-panel,
+#history-panel {
+  background-color: rgba(255, 255, 255, 0.96) !important;
+}
+
+#controls-panel-column .text-slate-400,
+#controls-panel-column .text-slate-500,
+#controls-panel-column .text-slate-600,
+#controls-panel-column .text-slate-700,
+#controls-panel-column .text-slate-800,
+#controls-panel-column .text-slate-900 {
+  color: #1e293b !important;
+}
+
+#controls-panel-column .text-white {
+  color: #ffffff !important;
+}
+

@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": "1780865603574-d34cd13d202770c3",
+      "resultText": "Pipa de Tu Eleccion",
+      "isLosing": false,
+      "linkToken": "60be63f02be8ea858e15f6c08db726aa",
+      "wheelOptionId": "1780859086387-1-2x93",
+      "participantId": null,
+      "spunAt": "2026-06-07T20:53:23.550Z"
+    },
+    {
+      "id": "1780861822763-7fea5fd8bada8847",
+      "resultText": "Premio Sorpresa 🎁",
+      "isLosing": false,
+      "linkToken": "8ebcbc2d2de3d3f7799e175dea73e070",
+      "wheelOptionId": "1780861803255-10-hkux",
+      "participantId": null,
+      "spunAt": "2026-06-07T19:50:22.742Z"
+    },
+    {
+      "id": "1780861381532-d6e00047a56cea20",
+      "resultText": "Otra Oportunidad Girar🔄",
+      "isLosing": false,
+      "linkToken": "0aeb82e0c3b43c3f6505f605d6059f91",
+      "wheelOptionId": "1780859086387-7-f5z1",
+      "participantId": null,
+      "spunAt": "2026-06-07T19:43:01.511Z"
+    },
+    {
+      "id": "1780861356565-9ce9a2492c17c6fd",
+      "resultText": "Pipa de Tu Eleccion",
+      "isLosing": false,
+      "linkToken": "0aeb82e0c3b43c3f6505f605d6059f91",
+      "wheelOptionId": "1780859086387-1-2x93",
+      "participantId": null,
+      "spunAt": "2026-06-07T19:42:36.539Z"
+    },
+    {
+      "id": "1780576740334-29c0eae2db78df6f",
+      "resultText": "PRUEBA",
+      "isLosing": false,
+      "linkToken": "",
+      "wheelOptionId": "test-option",
+      "spunAt": "2026-06-04T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ruleta-aleatoria
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_COOKIE_SECURE
+        value: auto

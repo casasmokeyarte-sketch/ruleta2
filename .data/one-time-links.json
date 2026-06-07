@@ -1,0 +1,126 @@
+{
+  "links": {
+    "1f8970f630f5c20f1b51c0ed0169a67d": {
+      "token": "1f8970f630f5c20f1b51c0ed0169a67d",
+      "status": "used",
+      "createdAt": "2026-06-03T17:42:01.212Z",
+      "usedAt": "2026-06-03T17:42:15.623Z",
+      "resultText": "SIN PREMIO",
+      "participantName": "Cliente Demo"
+    },
+    "1b84e59da0b976741d4304c1d5979f11": {
+      "token": "1b84e59da0b976741d4304c1d5979f11",
+      "status": "expired",
+      "createdAt": "2026-06-03T19:56:01.164Z",
+      "expiresAt": "2026-06-04T19:56:01.164Z"
+    },
+    "2d2e5aae3a0a9d3e0883dd79ee780308": {
+      "token": "2d2e5aae3a0a9d3e0883dd79ee780308",
+      "status": "expired",
+      "createdAt": "2026-06-03T20:12:46.688Z",
+      "expiresAt": "2026-06-04T20:12:46.688Z"
+    },
+    "12a9dd7fed2b6c74d665cf7581eccceb": {
+      "token": "12a9dd7fed2b6c74d665cf7581eccceb",
+      "status": "expired",
+      "createdAt": "2026-06-03T20:14:25.667Z",
+      "expiresAt": "2026-06-04T20:14:25.667Z"
+    },
+    "7dd7faa4a7fc62599c03bf67aff4940d": {
+      "token": "7dd7faa4a7fc62599c03bf67aff4940d",
+      "status": "used",
+      "createdAt": "2026-06-03T22:35:39.748Z",
+      "usedAt": "2026-06-03T22:36:21.470Z",
+      "resultText": "Mariana",
+      "participantName": "fdsfgdgsgz"
+    },
+    "b1387cd8f63bca5a45807d7b8be9a3a2": {
+      "token": "b1387cd8f63bca5a45807d7b8be9a3a2",
+      "status": "expired",
+      "createdAt": "2026-06-04T03:16:12.423Z",
+      "expiresAt": "2026-06-05T03:16:12.423Z"
+    },
+    "5b379cba11c33bb65bdd1d55c8abcd55": {
+      "token": "5b379cba11c33bb65bdd1d55c8abcd55",
+      "status": "used",
+      "createdAt": "2026-06-04T03:16:41.770Z",
+      "usedAt": "2026-06-04T03:17:19.846Z",
+      "resultText": "Isabella",
+      "participantName": "dffdffsdf"
+    },
+    "a19c95af36fe42fd4a243af36f08425b": {
+      "token": "a19c95af36fe42fd4a243af36f08425b",
+      "status": "expired",
+      "createdAt": "2026-06-04T08:02:19.878Z",
+      "expiresAt": "2026-06-05T08:02:19.878Z"
+    },
+    "b60536ec42742aad5086675a43b58b54": {
+      "token": "b60536ec42742aad5086675a43b58b54",
+      "status": "expired",
+      "createdAt": "2026-06-04T08:02:52.320Z",
+      "expiresAt": "2026-06-05T08:02:52.320Z"
+    },
+    "0aeb82e0c3b43c3f6505f605d6059f91": {
+      "token": "0aeb82e0c3b43c3f6505f605d6059f91",
+      "status": "used",
+      "createdAt": "2026-06-07T19:05:30.533Z",
+      "expiresAt": "2026-06-08T19:05:30.533Z",
+      "usedAt": "2026-06-07T19:42:36.566Z",
+      "resultText": "Pipa de Tu Eleccion",
+      "participantName": "oliver"
+    },
+    "584e7e4131dfcdc6bf11d5e6749f76f0": {
+      "token": "584e7e4131dfcdc6bf11d5e6749f76f0",
+      "status": "used",
+      "createdAt": "2026-06-07T19:40:41.482Z",
+      "expiresAt": "2026-06-08T19:40:41.482Z",
+      "usedAt": "2026-06-07T19:40:41.506Z",
+      "resultText": "Premio Test",
+      "participantName": "Tester QA"
+    },
+    "7a896a672622dd2614b10df5df10fec2": {
+      "token": "7a896a672622dd2614b10df5df10fec2",
+      "status": "used",
+      "createdAt": "2026-06-07T19:40:46.227Z",
+      "expiresAt": "2026-06-08T19:40:46.227Z",
+      "usedAt": "2026-06-07T19:40:54.769Z",
+      "resultText": "Prueba UI",
+      "participantName": "QA"
+    },
+    "280179a27ca87d3c0ee3ba1979302bf5": {
+      "token": "280179a27ca87d3c0ee3ba1979302bf5",
+      "status": "active",
+      "createdAt": "2026-06-07T19:44:00.878Z",
+      "expiresAt": "2026-06-08T19:44:00.878Z"
+    },
+    "8ebcbc2d2de3d3f7799e175dea73e070": {
+      "token": "8ebcbc2d2de3d3f7799e175dea73e070",
+      "status": "used",
+      "createdAt": "2026-06-07T19:50:00.954Z",
+      "expiresAt": "2026-06-08T19:50:00.954Z",
+      "usedAt": "2026-06-07T19:50:22.765Z",
+      "resultText": "Premio Sorpresa 🎁",
+      "participantName": "Cliente Prueba"
+    },
+    "60be63f02be8ea858e15f6c08db726aa": {
+      "token": "60be63f02be8ea858e15f6c08db726aa",
+      "status": "used",
+      "createdAt": "2026-06-07T20:52:15.418Z",
+      "expiresAt": "2026-06-08T20:52:15.418Z",
+      "usedAt": "2026-06-07T20:53:23.575Z",
+      "resultText": "Pipa de Tu Eleccion",
+      "participantName": "oliver"
+    },
+    "db3980923476b341fc63e5150c8fb2c2": {
+      "token": "db3980923476b341fc63e5150c8fb2c2",
+      "status": "active",
+      "createdAt": "2026-06-07T21:00:09.787Z",
+      "expiresAt": "2026-06-08T21:00:09.787Z"
+    },
+    "ecb3e32900afc4a6e5d16060bea9478a": {
+      "token": "ecb3e32900afc4a6e5d16060bea9478a",
+      "status": "active",
+      "createdAt": "2026-06-07T21:45:03.661Z"
+    }
+  }
+}

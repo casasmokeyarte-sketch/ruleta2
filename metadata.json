@@ -1,0 +1,6 @@
+{
+  "name": "Ruleta Aleatoria",
+  "description": "Una aplicación interactiva para realizar sorteos y tomar decisiones de forma fácil y divertida mediante una ruleta personalizable.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
